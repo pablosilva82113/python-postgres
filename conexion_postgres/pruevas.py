@@ -1,7 +1,7 @@
 import psycopg2
 import csv
 
-conn = psycopg2.connect("dbname='actividades_esenciales' user='local_user' host='localhost' password='pablo821'")
+conn = psycopg2.connect("dbname='actividades_esenciales' user='local_user' host='localhost' password='123456789'")
 cur = conn.cursor()
 sql = "TRUNCATE TABLE establecimientos"
 cur.execute(sql)
